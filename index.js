@@ -1,11 +1,8 @@
 //Load HTTP module
 const express = require("express");
-const cors=require('cors');
-const dotenv = require("dotenv");
 // const http = require("http");
 // const hostname = "127.0.0.1";
 //usamos el archivo de configuracion
-dotenv.config();
 const port = process.env.PORT || 3000;
 const url = process.env.MONGO_URL;
 

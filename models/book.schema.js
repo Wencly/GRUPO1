@@ -3,7 +3,7 @@ const { Schema, model } = require("mongoose");
 const bookSchema = new Schema({
   title: String,
   author: String,
-  publication_year: Date,
+  publication_year: String,
   imgUrl: String,
   pages: Number,
 });
